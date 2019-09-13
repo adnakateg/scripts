@@ -15,6 +15,8 @@ filetype plugin indent on    " required
 
 autocmd Filetype cpp setlocal expandtab tabstop=2 shiftwidth=2
 
+set wildignore+=*.e,*.swp
+let NERDTreeRespectWildIgnore=1
 colorscheme eldar
 set number
 set cursorline
