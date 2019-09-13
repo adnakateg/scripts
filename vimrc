@@ -25,4 +25,4 @@ nnoremap <silent><F8> :NERDTreeToggle <CR>
 nnoremap <silent><c-k> :NERDTreeFocus <CR>
 nnoremap <silent><c-n> :bnext <CR>
 nnoremap <silent><c-p> :bprev <CR>
-nnoremap <silent><c-x> :Bw[!] <CR>
+nnoremap <silent><c-x> :bp<bar>sp<bar>bn<bar>bd<CR>
