@@ -13,9 +13,9 @@ call vundle#end()            " required
 
 filetype plugin indent on    " required
 
-autocmd Filetype cpp setlocal expandtab tabstop=2 shiftwidth=2
+autocmd Filetype cpp setlocal tabstop=2 shiftwidth=2
 
-set wildignore+=*.e,*.swp
+set wildignore+=*.e,*.swp,*.out
 let NERDTreeRespectWildIgnore=1
 colorscheme eldar
 set number
