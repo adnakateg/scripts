@@ -1,0 +1,31 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "MSYS2 UCRT": {
+            "path": "cmd.exe",
+            "args": [
+                "/c",
+                "C:\\msys64\\msys2_shell.cmd -defterm -here -no-start -ucrt64"
+            ]
+        }
+    },
+    "clangd.path": "c:\\msys64\\ucrt64\\bin\\clangd.exe",
+    "workbench.startupEditor": "none",
+    "cmake.configureOnOpen": true,
+    "C_Cpp.default.compilerPath": "c:\\msys64\\ucrt64\\bin\\g++.exe",
+    "cmake.additionalCompilerSearchDirs": [
+        "C:/msys64/mingw32/bin",
+        "C:/msys64/ucrt64/bin"
+    ],
+    "editor.wordWrap": "on",
+    "cmake.cmakePath": "C:/msys64/ucrt64/bin/cmake",
+    "cmake.configureEnvironment": {
+        "-G": "\"MinGW Makefiles\""
+    },
+    "cmake.enabledOutputParsers": [
+        "cmake",
+        "gcc"
+    ],
+    "terminal.external.windowsExec": "C:\\msys64\\ucrt64.exe",
+    "git.path": "C:\\msys64\\usr\\bin\\git.exe",
+    "terminal.integrated.defaultProfile.windows": "MSYS2 UCRT"
+}
